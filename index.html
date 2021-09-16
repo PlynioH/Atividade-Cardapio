@@ -1,0 +1,119 @@
+<!Doctype <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cardápio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="modelagem.css">
+    </head>
+    <body>
+        <br><br><br>
+        <div class="title">
+            <h1 class="fonte">Cardápio</h1>
+            <h3 class="fonte">Selecione seu pedido</h3>
+        </div><br><br>
+
+        <header class="flex-container">
+            
+            <div class="principal">
+                <h2 class="fonte">Prato Principal</h2>
+                <input type="radio" id="escolha1" name="tipo" value="Parmegiana">
+                <label for="escolha1">Parmegiana de Carne--------- R$ 18,00</label><br/>
+        
+                <input type="radio" id="escolha2" name="tipo" value="Bife">
+                <label for="escolha2">Bife Acebolado---------------- R$ 15,00</label><br/>
+        
+                <input type="radio" id="escolha3" name="tipo" value="Virado">
+                <label for="escolha3">Virado Paulista---------------- R$ 16,00</label><br/>
+
+                <input type="radio" id="escolha4" name="tipo" value="Strogonoff">
+                <label for="escolha4">Strogonoff de Frango--------- R$ 12,00</label><br/>
+
+                <input type="radio" id="escolha5" name="tipo" value="Feijoada">
+                <label for="escolha5">Feijoada------------------------ R$ 17,00</label><br/>
+            </div>
+        
+            <div class="principal">
+                <h2 class="fonte">Acompanhamentos</h2>
+                <input type="checkbox" id="acompanhamento1" name="tipo" value="Batata">
+                <label for="acompanhamento1">Batata Frita----------------- R$ 3,00</label><br/>
+        
+                <input type="checkbox" id="acompanhamento2" name="tipo" value="Nhoque">
+                <label for="acompanhamento2">Nhoque---------------------- R$ 5,00</label><br/>
+        
+                <input type="checkbox" id="acompanhamento3" name="tipo" value="Lasanha">
+                <label for="acompanhamento3">Lasanha--------------------- R$ 3,00</label><br/>
+
+                <input type="checkbox" id="acompanhamento4" name="tipo" value="Maionese">
+                <label for="acompanhamento4">Salada de Maionese------- R$ 3,00</label><br/>
+
+                <input type="checkbox" id="acompanhamento5" name="tipo" value="Macarrão">
+                <label for="acompanhamento5">Macarrão-------------------- R$ 2,00</label><br/>
+            </div>
+        </header>
+
+        <div class="flex-container">
+            <div class="principal">
+                <h2 class="fonte">Bebidas</h2>
+                <input type="checkbox" id="bebida1" name="tipo" value="Coca">
+                <label for="bebida1">Coca-Cola------------ R$ 5,00</label><br/>
+        
+                <input type="checkbox" id="bebida2" name="tipo" value="Guarana">
+                <label for="bebida2">Guaraná-------------- R$ 4,50</label><br/>
+        
+                <input type="checkbox" id="bebida3" name="tipo" value="Sprite">
+                <label for="bebida3">Sprite----------------- R$ 4,00</label><br/>
+
+                <input type="checkbox" id="bebida4" name="tipo" value="F-uva">
+                <label for="bebida4">Fanta Uva------------ R$ 4,00</label><br/>
+
+                <input type="checkbox" id="bebida5" name="tipo" value="F-laranja">
+                <label for="bebida5">Fanta Laranja-------- R$ 4,00</label><br/>
+            
+            </div>
+        </div><br><br><br><br>
+
+        <div class="flex-container">
+            <form class="principal">
+                <h2 class="fonte">Formas de Pagamento</h2>
+        
+                <input type="radio" id="pagamento1" name="cash" value="Dinheiro">
+                <label for="pagamento1">Dinheiro</label><br />
+        
+                <input type="radio" id="pagamento2" name="cash" value="Debito">
+                <label for="pagamento2">Cartão de Débito</label><br />
+        
+                <input type="radio" id="pagamento3" name="cash" value="Credito">
+                <label for="pagamento3">Cartão de Crédito</label>
+            </form>
+        </div><br><br><br><br><br><br><br><br>
+
+        <div class="flex-container">
+            <textarea name="comentario" id="comment" cols="70" rows="7" placeholder="Alguma Observação?"></textarea>
+        </div><br><br>
+
+        <div class="flex-container">
+            <div class="principal">
+                <form>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome"><br>
+        
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+        
+                    <label for="telefone">Telefone:</label><br>
+                    <input type="text" id="telefone" name="telefone"><br><br><br><br><br>
+
+                    <label for="nome">Valor Total:</label><br>
+                    <input type="text" id="nome" name="nome" value="R$ 80,00" readonly><br><br>
+
+                    <input type="submit" value="Concluir Pedido">
+                </form>
+            </div>
+        </div><br><br>
+
+    </body>
+</html>
