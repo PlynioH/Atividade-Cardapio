@@ -11,31 +11,48 @@
     </head>
     <body>
         <br><br><br>
-        <div class="title">
-            <h1 class="fonte">Cardápio</h1>
-            <h3 class="fonte">Selecione seu pedido</h3>
-        </div><br><br>
+        <div class="title fonte">
+            <h1>Cardápio</h1>
+            <h3>Selecione seu pedido</h3>
+        </div><br><br><br>
 
-        <header class="flex-container">
-            
-            <div class="principal">
-                <h2 class="fonte">Prato Principal</h2>
+        <h2 class="fonte title">Prato Principal</h2>
+        <header class="flex-container-principal principal">
+        
+            <div class="card">
+                <img src="/images/Parmegiana.jpg" alt="food1" style="width:100%" height="250px">
                 <input type="radio" id="escolha1" name="tipo" value="Parmegiana">
-                <label for="escolha1">Parmegiana de Carne--------- R$ 18,00</label><br/>
-        
-                <input type="radio" id="escolha2" name="tipo" value="Bife">
-                <label for="escolha2">Bife Acebolado---------------- R$ 15,00</label><br/>
-        
-                <input type="radio" id="escolha3" name="tipo" value="Virado">
-                <label for="escolha3">Virado Paulista---------------- R$ 16,00</label><br/>
-
-                <input type="radio" id="escolha4" name="tipo" value="Strogonoff">
-                <label for="escolha4">Strogonoff de Frango--------- R$ 12,00</label><br/>
-
-                <input type="radio" id="escolha5" name="tipo" value="Feijoada">
-                <label for="escolha5">Feijoada------------------------ R$ 17,00</label><br/>
+                <label for="escolha1">Parmegiana de Carne--------- R$ 18,00</label><br />
             </div>
         
+            <div class="card">
+                <img src="/images/bifeAcebolado.jpg" alt="food2" style="width:100%" height="250px">
+                <input type="radio" id="escolha2" name="tipo" value="Bife">
+                <label for="escolha2">Bife Acebolado---------------- R$ 15,00</label><br />
+            </div>
+        
+            <div class="card">
+                <img src="/images/virado_paulista.jpg" alt="food3" style="width:100%" height="250px">
+                <input type="radio" id="escolha3" name="tipo" value="Virado">
+                <label for="escolha3">Virado Paulista---------------- R$ 16,00</label><br />
+            </div>
+        
+            <div class="card">
+                <img src="/images/strogonoff-de-frango.jpg" alt="food4" style="width:100%" height="250px">
+                <input type="radio" id="escolha4" name="tipo" value="Strogonoff">
+                <label for="escolha4">Strogonoff de Frango--------- R$ 12,00</label><br />
+            </div>
+        
+            <div class="card">
+                <img src="/images/feijoada.jpg" alt="food5" style="width:100%" height="250px">
+                <input type="radio" id="escolha5" name="tipo" value="Feijoada">
+                <label for="escolha5">Feijoada------------------------ R$ 17,00</label><br />
+        
+            </div>
+        </header><br><br><br><br>
+
+        <div class="flex-container">
+
             <div class="principal">
                 <h2 class="fonte">Acompanhamentos</h2>
                 <input type="checkbox" id="acompanhamento1" name="tipo" value="Batata">
@@ -53,9 +70,7 @@
                 <input type="checkbox" id="acompanhamento5" name="tipo" value="Macarrão">
                 <label for="acompanhamento5">Macarrão-------------------- R$ 2,00</label><br/>
             </div>
-        </header>
 
-        <div class="flex-container">
             <div class="principal">
                 <h2 class="fonte">Bebidas</h2>
                 <input type="checkbox" id="bebida1" name="tipo" value="Coca">

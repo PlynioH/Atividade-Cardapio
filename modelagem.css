@@ -19,6 +19,28 @@ body{
     color:rgb(167, 153, 27)
 }
 
+  .card{
+      box-shadow: 0 6px 9px 0 rgb(238, 230, 196);
+      transition: 0.3s;
+      width: 20%;
+  }
+
+  .card:hover{
+      box-shadow: 0 4px 8px 0 rgba(228, 227, 222, 0.2);
+  }
+
+  .container{
+    padding: 2px 8px;
+  }
+
+  .flex-container-principal{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
 .flex-container{
     display: flex;
     margin-left: 50px;
